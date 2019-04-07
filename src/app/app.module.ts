@@ -9,6 +9,7 @@ import { NgxElectronModule } from "ngx-electron";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { APP_BASE_HREF } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
+import { FlexLayoutModule } from "@angular/flex-layout";
 
 import { PagesModule } from "./pages/pages.module";
 
@@ -20,6 +21,7 @@ import { PagesModule } from "./pages/pages.module";
         HttpClientModule,
         AppRoutingModule,
         NgxElectronModule,
+        FlexLayoutModule,
 
         PagesModule
     ],

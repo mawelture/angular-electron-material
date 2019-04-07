@@ -112,8 +112,9 @@ npm install --save ngx-electron
 # Material
 
 ```shell
-
 npm install --save @angular/material @angular/cdk @angular/animations
+# 布局工具
+npm install --save @angular/flex-layout
 ```
 
 添加样式:
