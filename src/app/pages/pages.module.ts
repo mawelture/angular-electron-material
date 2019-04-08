@@ -3,15 +3,17 @@ import { CommonModule } from "@angular/common";
 
 import { PagesRoutingModule } from "./pages-routing.module";
 import { PagesComponent } from "./pages.component";
-import { MatGridListModule, MatInputModule } from "@angular/material";
+
+import { MaterialModule } from "../@material/material.module";
+import { MenuComponent } from './menu/menu.component';
+import { MenuItemComponent } from './menu/menu-item/menu-item.component';
 
 @NgModule({
-    declarations: [PagesComponent],
+    declarations: [PagesComponent, MenuComponent, MenuItemComponent],
     imports: [
         CommonModule,
         PagesRoutingModule,
-        MatGridListModule,
-        MatInputModule
+        MaterialModule
     ]
 })
 export class PagesModule {}
